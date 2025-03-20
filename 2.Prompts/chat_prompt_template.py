@@ -3,7 +3,7 @@ from langchain_core.messages import SystemMessage, HumanMessage, AIMessage
 
 chat_template = ChatPromptTemplate([
     ('system',"You are a helpful {domain} expert."),
-    ('human', "Explain in simple terms what is {topic}")
+    ('hcuman', "Explain in simple terms what is {topic}")
 ])
 
 
