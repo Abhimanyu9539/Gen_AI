@@ -1,5 +1,6 @@
 from langchain_experimental.text_splitter import SemanticChunker
 from langchain_openai.embeddings import OpenAIEmbeddings
+from langchain_openai import ChatOpenAI
 from dotenv import load_dotenv
 
 load_dotenv()
